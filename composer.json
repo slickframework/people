@@ -1,0 +1,30 @@
+{
+  "name": "slick/people",
+  "description": "User management package",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "type": "library",
+  "homepage": "https://github.com/slick/people",
+  "authors": [
+    {
+      "name": "Filipe Silva",
+      "email": "silvam.filipe@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Slick\\People\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Slick\\People\\Tests\\": "tests"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
