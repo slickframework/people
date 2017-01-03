@@ -12,7 +12,10 @@
     }
   ],
   "require": {
-    "php": ">=5.6"
+    "php": ">=5.6",
+    "paragonie/random_compat": "^2.0",
+    "ramsey/uuid": "^3.5",
+    "slick/validator": "^1.1"
   },
   "autoload": {
     "psr-4": {
@@ -26,5 +29,10 @@
   },
   "config": {
     "sort-packages": true
+  },
+  "require-dev": {
+    "behat/behat": "^3.3",
+    "phpspec/phpspec": "^3.2",
+    "phpunit/phpunit": "^5.7"
   }
 }

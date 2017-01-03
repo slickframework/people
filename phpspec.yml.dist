@@ -1,0 +1,4 @@
+suites:
+  slick_di_suite:
+    namespace: Slick\People
+    psr4_prefix: Slick\People
